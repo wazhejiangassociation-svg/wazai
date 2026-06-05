@@ -18,14 +18,14 @@ const STORY_BLOCKS: StoryBlock[] = [
     copyEn:
       "The Western Australia Zhejiang Association exists to connect people, culture, and opportunity. We bring together Zhejiang families, professionals, entrepreneurs, and partners across Western Australia, creating a trusted platform for long-term community connection and meaningful collaboration.",
     copyZh:
-      "西澳浙江联合会致力于连接人、文化与机遇。我们凝聚在西澳生活与发展的浙江乡亲、专业人士、企业家及合作伙伴，打造一个值得信赖、可持续发展的社区交流与合作平台。",
+      "西澳浙江联合会致力于连接人、文化与机遇。我们凝聚在西澳生活与发展的浙江同仁、专业人士、企业家及合作伙伴，打造一个值得信赖、可持续发展的社区交流与合作平台。",
     image: "/ourmission.png",
   },
   {
     titleEn: "Cultural Connection",
     titleZh: "文化联结",
     copyEn:
-      "Through festivals, gatherings, cultural programs, and community celebrations, we preserve the warmth of Zhejiang heritage while sharing it with Western Australia’s diverse society. Culture is not only remembered here - it is experienced, renewed, and passed on.",
+      "Through festivals, gatherings, cultural projects, and community celebrations, we preserve the warmth of Zhejiang heritage while sharing it with Western Australia’s diverse society. Culture is not only remembered here - it is experienced, renewed, and passed on.",
     copyZh:
       "通过节庆活动、社区聚会、文化项目与社区庆典，我们延续浙江文化的温度，也将其融入西澳多元社会。在这里，文化不只是被记住，更被体验、焕新与传承。",
     image: "/culture.jpg",
@@ -36,7 +36,7 @@ const STORY_BLOCKS: StoryBlock[] = [
     copyEn:
       "We support members by creating opportunities for business exchange, professional networking, industry dialogue, and cross-community collaboration. The association serves as a bridge between local resources, member needs, and future possibilities.",
     copyZh:
-      "我们通过商务交流、专业社交、行业对话与跨社区合作，为会员创造更多连接与发展机遇。同乡会不仅连接本地资源与会员需求，也连接当下行动与未来可能。",
+      "我们通过商务交流、专业社交、行业对话与跨社区合作，为会员创造更多连接与发展机遇。联合会不仅连接本地资源与会员需求，也连接当下行动与未来可能。",
     image: "/business.jpg",
   },
   {

@@ -14,7 +14,7 @@ const faqItems = [
       "是的。会费用于支持联合会的日常运营，并根据会员类型有所不同：\n学生会员：每年 AU$30\n个人会员：每年 AU$50\n家庭会员：每年 AU$100\n企业会员：每年 AU$200\n所有费用仅用于活动组织与社区维护，不以营利为目的。所有会员享有平等的权利与权益。"
   },
   {
-    questionEn: "What activities does the association offer?",
+    questionEn: "What events does the association offer?",
     questionZh: "联合会提供哪些活动？",
     answerEn:
       "We organize a variety of events such as Lunar New Year Gala, Mid-Autumn Reunion, Youth Forums, Business Networking, Family Outings, and more. These activities aim to strengthen connections, share resources, and celebrate our cultural heritage.",
@@ -25,7 +25,7 @@ const faqItems = [
     questionEn: "Who can join?",
     questionZh: "哪些人可以加入？",
     answerEn:
-      "Anyone who studies, works, or lives in Western Australia and is originally from Zhejiang, or who is interested in Zhejiang culture and willing to participate in our community activities, is welcome to apply. Students, individuals, families, and businesses are all encouraged to join.",
+      "Anyone who studies, works, or lives in Western Australia and is originally from Zhejiang, or who is interested in Zhejiang culture and willing to participate in our community events, is welcome to apply. Students, individuals, families, and businesses are all encouraged to join.",
     answerZh:
       "凡是在西澳学习、工作或生活，来自浙江，或对浙江文化感兴趣并愿意参与社区活动的人士，均欢迎申请加入。学生、个人、家庭与企业都可以成为会员。"
   },
@@ -35,7 +35,7 @@ const faqItems = [
     answerEn:
       "The Zhejiang Association is a non-profit community established by Zhejiang locals in Western Australia. It is dedicated to fostering hometown ties, mutual support, and cultural exchange between China and Australia. Our mission is to build a warm and supportive Zhejiang community in Western Australia.",
     answerZh:
-      "浙江联合会是由在西澳的浙江乡亲共同建立的非营利性社区组织，致力于促进乡情联结、互助支持以及中澳文化交流。我们的使命是在西澳建设一个温暖、互助、具有凝聚力的浙江社群。"
+      "浙江联合会是由在西澳的浙江同仁共同建立的非营利性社区组织，致力于促进乡情联结、互助支持以及中澳文化交流。我们的使命是在西澳建设一个温暖、互助、具有凝聚力的浙江社群。"
   }
 ];
 

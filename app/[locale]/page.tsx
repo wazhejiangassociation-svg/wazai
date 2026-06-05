@@ -58,8 +58,8 @@ export default function HomePage() {
 
               <p className="home-feature-copy">
                 <BilingualText
-                  en="Through exclusive events, community updates, partner benefits, and meaningful cultural gatherings, WAZAI helps members connect, grow, and enjoy a stronger sense of belonging."
-                  zh="通过会员专属活动、社区资讯、合作商家权益与高质量文化交流，西澳浙江同乡会帮助会员建立联系、共享资源，并获得更强的归属感。"
+                  en="Through exclusive events, community updates, partner benefits, and meaningful cultural gatherings, Zhejiang Association helps members connect, grow, and enjoy a stronger sense of belonging."
+                  zh="通过会员专属活动、社区资讯、合作商家权益与高质量文化交流，西澳浙江联合会帮助会员建立联系、共享资源，并获得更强的归属感。"
                 />
               </p>
 
@@ -103,7 +103,10 @@ export default function HomePage() {
             <div className="home-events-header">
               <BilingualHeading en="Upcoming Events" zh="近期活动" />
 
-              <Link href="/events" className="editorial-link editorial-link-inline">
+              <Link
+                href="/events"
+                className="editorial-link editorial-link-inline"
+              >
                 <BilingualText en="View All Events" zh="查看全部活动" />
               </Link>
             </div>
@@ -144,9 +147,9 @@ export default function HomePage() {
                   </p>
                 </div>
 
-              <Link href="/contact" className="editorial-link">
-                <BilingualText en="Contact Us" zh="联系我们" />
-              </Link>
+                <Link href="/contact" className="editorial-link">
+                  <BilingualText en="Contact Us" zh="联系我们" />
+                </Link>
               </div>
             </ScrollReveal>
 
