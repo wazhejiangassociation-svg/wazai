@@ -137,10 +137,12 @@ export function Navigation() {
               ref={closeButtonRef}
               type="button"
               className="nav-drawer-close"
-              aria-label={locale === "zh" ? "关闭导航菜单" : "Close navigation menu"}
+              aria-label={
+                locale === "zh" ? "关闭导航菜单" : "Close navigation menu"
+              }
               onClick={closeDrawer}
             >
-              <span aria-hidden="true">脳</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
 
@@ -163,7 +165,11 @@ export function Navigation() {
           <div className="nav-drawer-footer">
             <LanguageSwitcher />
 
-            <Link href="/contact" className="nav-drawer-cta" onClick={closeDrawer}>
+            <Link
+              href="/contact"
+              className="nav-drawer-cta"
+              onClick={closeDrawer}
+            >
               {t("join")}
             </Link>
           </div>

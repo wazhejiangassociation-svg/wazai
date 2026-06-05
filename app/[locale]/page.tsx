@@ -6,6 +6,7 @@ import { BilingualText } from "@/components/common/BilingualText";
 import { EventsCarousel } from "@/components/events/EventsCarousel";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { HomeFeatureVideo } from "@/components/home/HomeFeatureVideo";
 
 export default function HomePage() {
   return (
@@ -70,29 +71,7 @@ export default function HomePage() {
           </ScrollReveal>
 
           <ScrollReveal delay={100}>
-            <div className="home-feature-video-wrap">
-              <video
-                className="home-feature-video"
-                src="/homevideo.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
-
-              <div className="home-feature-video-overlay" />
-
-              <div className="home-feature-video-label">
-                <a
-                  href="/homevideo.mp4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="editorial-link editorial-link-light video-watch-link"
-                >
-                  <BilingualText en="Watch full video" zh="观看完整视频" />
-                </a>
-              </div>
-            </div>
+            <HomeFeatureVideo />
           </ScrollReveal>
         </div>
       </section>
