@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "brandZh": "西澳浙江同乡会",
+    "join": "联系我们",
+    "/": {
+      "label": "首页"
+    },
+    "/about": {
+      "label": "关于我们"
+    },
+    "/events": {
+      "label": "活动"
+    },
+    "/gallery": {
+      "label": "相册"
+    },
+    "/contact": {
+      "label": "联系我们"
+    }
+  },
+  "footer": {
+    "title": "Western Australia Zhejiang Association",
+    "subtitleZh": "WAZAI",
+    "summary": "连接浙江乡亲与西澳社区，促进文化传承、商务合作与社区参与。",
+    "linksTitle": "快速导航",
+    "events": "活动",
+    "contact": "联系我们",
+    "ctaTitle": "参与我们",
+    "cta": "联系我们"
+  }
+}

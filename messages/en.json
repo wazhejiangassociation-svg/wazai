@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "brandZh": "Western Australia Zhejiang Association",
+    "join": "Contact Us",
+    "/": {
+      "label": "Home"
+    },
+    "/about": {
+      "label": "About"
+    },
+    "/events": {
+      "label": "Events"
+    },
+    "/gallery": {
+      "label": "Gallery"
+    },
+    "/contact": {
+      "label": "Contact"
+    }
+  },
+  "footer": {
+    "title": "Western Australia Zhejiang Association",
+    "subtitleZh": "WAZAI",
+    "summary": "Supporting cultural connection, business exchange, and community belonging across Western Australia.",
+    "linksTitle": "Quick Links",
+    "events": "Events",
+    "contact": "Contact",
+    "ctaTitle": "Get Involved",
+    "cta": "Contact Us"
+  }
+}

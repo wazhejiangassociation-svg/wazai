@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# next
+.next
+out
+
+# logs
+*.log
+
+# environment variables
+.env
+.env.local
+.env.production
+
+# cache
+.vercel
+
+# system files
+.DS_Store
+Thumbs.db
+
+# vscode
+.vscode
+
+# typescript
+*.tsbuildinfo
+
+# large media files
+public/homevideo.mp4
