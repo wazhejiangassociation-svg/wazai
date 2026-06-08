@@ -52,6 +52,7 @@ function Icon({
 
 export function Footer() {
   const locale = useLocale();
+  const currentYear = new Date().getFullYear();
   const newsletterPlaceholder = locale === "zh" ? "电子邮箱地址" : "Email address";
   const newsletterButton = locale === "zh" ? "订阅" : "Subscribe";
 
@@ -187,7 +188,7 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 WAZAI. All rights reserved.</p>
+          <p>© {currentYear} WAZAI. All rights reserved.</p>
           <Link href="/contact">
             <BilingualText en="Contact Us" zh="联系我们" />
           </Link>
