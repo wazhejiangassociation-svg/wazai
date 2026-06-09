@@ -158,7 +158,7 @@ export function Footer() {
 
               <div className="footer-contact-row">
                 <Icon type="phone" />
-                <span>0452 558 523</span>
+                <span>+61 0452 558 523</span>
               </div>
 
               <div className="footer-contact-row">

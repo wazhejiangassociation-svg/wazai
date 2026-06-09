@@ -1,9 +1,9 @@
 export const navLinks = [
-  { href: "/" },
-  { href: "/about" },
-  { href: "/events" },
-  { href: "/gallery" },
-  { href: "/contact" }
+  { href: "/", labelEn: "Home", labelZh: "\u9996\u9875" },
+  { href: "/about", labelEn: "About", labelZh: "\u5173\u4e8e\u6211\u4eec" },
+  { href: "/events", labelEn: "Events", labelZh: "\u6d3b\u52a8" },
+  { href: "/gallery", labelEn: "Gallery", labelZh: "\u76f8\u518c" },
+  { href: "/contact", labelEn: "Contact", labelZh: "\u8054\u7cfb\u6211\u4eec" }
 ];
 
 export const upcomingEvents = [

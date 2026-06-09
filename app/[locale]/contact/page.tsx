@@ -115,7 +115,7 @@ export default function ContactPage() {
                 </span>
                 <div>
                   <span className="contact-detail-label">Phone</span>
-                  <span className="contact-detail-value">0452 558 523</span>
+                  <span className="contact-detail-value">+61 0452 558 523</span>
                 </div>
               </a>
 

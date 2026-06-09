@@ -1,15 +1,15 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { navLinks } from "@/lib/content";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import Image from "next/image";
 
 export function Navigation() {
-  const t = useTranslations("nav");
   const locale = useLocale();
+  const isZh = locale === "zh";
   const pathname = usePathname();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const closeButtonRef = useRef<HTMLButtonElement | null>(null);
@@ -80,7 +80,7 @@ export function Navigation() {
                 href={link.href}
                 className={`nav-link ${isActive(link.href) ? "nav-link-active" : ""}`}
               >
-                {t(`${link.href}.label`)}
+                {isZh ? link.labelZh : link.labelEn}
               </Link>
             ))}
           </div>
@@ -89,7 +89,7 @@ export function Navigation() {
             <LanguageSwitcher />
 
             <Link href="/contact" className="editorial-link nav-join-link">
-              {t("join")}
+              {isZh ? "\u8054\u7cfb\u6211\u4eec" : "Contact Us"}
             </Link>
           </div>
         </div>
@@ -97,7 +97,7 @@ export function Navigation() {
         <button
           type="button"
           className="nav-menu-button"
-          aria-label={locale === "zh" ? "打开导航菜单" : "Open navigation menu"}
+          aria-label={locale === "zh" ? "\u6253\u5f00\u5bfc\u822a\u83dc\u5355" : "Open navigation menu"}
           aria-controls="site-navigation-drawer"
           aria-expanded={isDrawerOpen}
           onClick={toggleDrawer}
@@ -138,7 +138,7 @@ export function Navigation() {
               type="button"
               className="nav-drawer-close"
               aria-label={
-                locale === "zh" ? "关闭导航菜单" : "Close navigation menu"
+                locale === "zh" ? "\u5173\u95ed\u5bfc\u822a\u83dc\u5355" : "Close navigation menu"
               }
               onClick={closeDrawer}
             >
@@ -148,7 +148,7 @@ export function Navigation() {
 
           <nav
             className="nav-drawer-links"
-            aria-label={locale === "zh" ? "移动导航" : "Mobile navigation"}
+            aria-label={locale === "zh" ? "\u79fb\u52a8\u5bfc\u822a" : "Mobile navigation"}
           >
             {navLinks.map((link) => (
               <Link
@@ -157,7 +157,7 @@ export function Navigation() {
                 className={`nav-link nav-drawer-link ${isActive(link.href) ? "nav-link-active" : ""}`}
                 onClick={closeDrawer}
               >
-                {t(`${link.href}.label`)}
+                {isZh ? link.labelZh : link.labelEn}
               </Link>
             ))}
           </nav>
@@ -170,7 +170,7 @@ export function Navigation() {
               className="nav-drawer-cta"
               onClick={closeDrawer}
             >
-              {t("join")}
+              {isZh ? "\u8054\u7cfb\u6211\u4eec" : "Contact Us"}
             </Link>
           </div>
         </div>
